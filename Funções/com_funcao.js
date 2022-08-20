@@ -1,25 +1,23 @@
-const d1 = 16;
-const m1 = 03;
-const a1 = 2022;
+// Uma função irá definir um bloco de código.
 
+const horas1 = 7;
+const minutos1 = 34;
+const segundos1 = 18;
 
-const d2 = 05;
-const m2 = 27;
-const a2 = 2022;
-
-
-function ExibirData2() {
-  console.log(`${d2}/${m2}/${a2}`);
+function exibirTempo1() {
+ console.log(`São: ${horas1} Horas ${minutos1} Minutos e ${segundos1} Segundos`)
 }
 
-function ExibirData( d, m, a) { 
-  console.log(`${d}-${m}-${a}`); 
-} 
+exibirTempo1();
 
 
-ExibirData(d1, m1, a1);
-ExibirData(d1, m1, a1);
-ExibirData(d1, m1, a1);
-ExibirData2(d2, m2, a2);
-ExibirData2(d2, m2, a2);
-ExibirData2(d2, m2, a2);
+const horas2 = 3;
+const minutos2 = 15;
+const segundos2 = 51;
+
+
+function exibirTempo2() {
+  console.log(`São: ${horas2} Horas ${minutos2} Minutos e ${segundos2} segundos`);
+}
+
+exibirTempo2();
